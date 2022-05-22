@@ -1,0 +1,57 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@300;400;500&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;600;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Padauk:wght@400;700&display=swap');
+
+$font-family: 'League Spartan', sans-serif;
+
+.hero-img{
+  //background-image: url("img/desktop-image-hero-1.jpg");
+  //background-repeat: no-repeat;
+  height: 533px;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  left: 25px;
+}
+
+.navbar, p, h6{
+  font-family: $font-family;
+
+}
+
+.navbar{
+  font-size: 12px;
+  .nav-link{
+    color: whitesmoke;
+  }
+}
+
+p{
+  font-size: 12px;
+}
+
+h6{
+  font-size: 15px;
+}
+
+.shop{
+  letter-spacing: 0.5rem;
+}
+
+.about{
+  letter-spacing: 0.2rem;
+}
+
+.btn-slide{
+  width: 77px;
+  height: 50px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.div-1{
+  position: absolute;
+  left:    58%;
+  bottom:   70px;
+}
