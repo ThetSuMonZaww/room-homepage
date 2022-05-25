@@ -55,3 +55,29 @@ h6{
   left:    58%;
   bottom:   70px;
 }
+
+@media only screen
+and (max-width : 390px) {
+  .hero-img{
+    //background-image: url("img/desktop-image-hero-1.jpg");
+    //background-repeat: no-repeat;
+    height: 300px;
+  }
+
+  .div-land, .div-about{
+    width: 350px;
+  }
+
+  .div-1{
+    position: absolute;
+    left:    74%;
+    top:   260px;
+  }
+
+  .btn-slide{
+    width: 50px;
+    height: 35px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
